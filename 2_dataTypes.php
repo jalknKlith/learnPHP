@@ -8,6 +8,8 @@
 <?php
 $x = "datos";
 $P = 'PHP';
+$a = 5;
+$float = 8.4;
 $y = array(2,3,4);
 $z = false;
 //var_dump($x);
@@ -16,7 +18,6 @@ class Car{
   public $model;
 }
 //casting una vaiable, cambiar el tipo de dato de una variable
-$a = 5;
 $a = (string)$x;
 
 echo <<<HTML
