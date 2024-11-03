@@ -7,6 +7,11 @@ LearnPHP
 </h1>
 
 <?php
+//Este es un comentario de una linea
+#Este tambien es un comentario de una linea
+/*
+Este es un comentario de multilinea
+*/
 $variable = "PHP";
 
 echo <<<HTML
