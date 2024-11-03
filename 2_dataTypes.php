@@ -6,19 +6,23 @@
 <h3>Tipos de datos</h3>
 
 <?php
-$x = "datos";
+$a = 0;
+$b = 0.1;
+$x = "datos";//string
+$z = true;
 $P = 'PHP';
-$a = 5;
-$float = 8.4;
-$y = array(2,3,4);
-$z = false;
+
+$y = array(1,2,3);
 //var_dump($x);
 class Car{
   public $color;
   public $model;
 }
-//casting una vaiable, cambiar el tipo de dato de una variable
-$a = (string)$x;
+
+echo("Este es un entero: ". $a);
+echo("<br>Este es un float: ". $b);
+echo("<br>Este es una cadena: ". $x);
+echo("<br>Este es un boleano: ". $z);
 
 echo <<<HTML
 <p>Las variables pueden almacenar cualquier tipo de $x
