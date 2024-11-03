@@ -7,7 +7,22 @@ LearnPHP
 </h1>
 
 <?php
-echo "La extension por defecto de los archivo PHP es '.php.'<br><br> Un archivo PHP normalmente contiene etiquetas HTML, y algunos scripts de PHP.<br><br>Un declaracion en PHP siempre termina con punto y coma(;)<br><br>En PHP las palabras claves (if,else,while,echo), clases, fucnciones pueden ir en mayusculo o minuscula (ej. ECHO, echo, EcHo)";
+$variable = "PHP";
+
+echo <<<HTML
+<p>La extensión por defecto de los archivos $variable es '.php'.</p>
+
+<p>Un archivo $variable normalmente contiene etiquetas HTML y algunos scripts de $variable.</p>
+
+<p>Una declaración en $variable siempre termina con punto y coma (;).</p>
+
+<p>En $variable las palabras clave (if, else, while, echo), clases, funciones pueden ir en mayúscula o minúscula (ej. ECHO, echo, EcHo).</p>
+
+<p>ECHO es lo mismo que echo.</p>
+
+<p>Pero las variables sí son sensibles a mayúsculas y minúsculas.</p>
+HTML;
+
 ?>
 
 </body>
