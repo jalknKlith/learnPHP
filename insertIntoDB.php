@@ -8,9 +8,9 @@
 <body>
 <?php
 $servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "myDBPDO";
+$username = "";
+$password = "";
+$dbname = "";
 
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

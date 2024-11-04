@@ -9,8 +9,8 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "mefort@1ece";
-$dbname = "testea";
+$password = "";
+$dbname = "";
 
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
